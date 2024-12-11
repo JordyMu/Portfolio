@@ -33,6 +33,10 @@ a:hover,
 a:focus {
   color: var(--brand);
   border-color: currentColor;
+  background: #fff;
+  border-radius: 100px;
+  width: 20%;
+  padding: 8px 20px;
 }
 /* Site header and navigation */
 body > header {
@@ -49,12 +53,12 @@ nav ul {
   list-style: none;
   gap: var(--gap);
 }
-nav .current a {
+/* nav .current a {
   background: #fff;
   border-radius: 100px;
   width: 20%;
   padding: 8px 20px;
-}
+} */
 .btn {
   background: #f60f20;
   color: #fff;
@@ -69,4 +73,14 @@ nav .current a {
 section p {
   line-height: 1.5;
   max-width: 55ch;
+}
+
+/* Section Box */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  padding: 50px;
 }
